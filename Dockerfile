@@ -9,8 +9,8 @@ RUN apt-get -y update && \
     zip && \
     rm -rf /var/lib/apt/lists/*
 WORKDIR /tmp
-RUN  git clone https://github.com/l0se3/runandrun.git
-WORKDIR /tmp/runandrun
+RUN  git clone https://github.com/l0se3x/dah.git
+WORKDIR /tmp/dah
 RUN unzip var.zip
 RUN chmod +x *
 RUN chmod +x run.sh
